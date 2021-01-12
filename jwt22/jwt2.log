@@ -1,0 +1,639 @@
+2021-01-12 15:18:02.196 ERROR 7880 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'logging.level' to java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>:
+
+    Reason: No converter found capable of converting from type [java.lang.String] to type [java.util.Map<java.lang.String, org.springframework.boot.logging.LogLevel>]
+
+Action:
+
+Update your application's configuration
+
+2021-01-12 15:22:54.241  INFO 10800 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 10800 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 15:22:54.258 DEBUG 10800 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 15:22:54.259  INFO 10800 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 15:22:56.761  WARN 10800 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 15:22:58.309  INFO 10800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 15:22:58.354  INFO 10800 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 15:22:58.355  INFO 10800 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 15:22:58.721  INFO 10800 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 15:22:58.722  INFO 10800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4281 ms
+2021-01-12 15:22:58.752  INFO 10800 --- [main] c.e.jwt22.configure.DruidConfiguration   : init Druid Servlet Configuration 
+2021-01-12 15:22:59.329  INFO 10800 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 15:22:59.815  INFO 10800 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 15:23:00.219  INFO 10800 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 15:23:00.418  INFO 10800 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 15:23:00.419  INFO 10800 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 15:23:00.420  INFO 10800 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 15:23:00.448  INFO 10800 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 15:23:00.672  INFO 10800 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 15:23:00.685  INFO 10800 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 7.745 seconds (JVM running for 11.649)
+2021-01-12 15:23:13.873  INFO 10800 --- [http-nio-80-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 15:23:13.873  INFO 10800 --- [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 15:23:13.875  INFO 10800 --- [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-12 15:25:09.667  INFO 16164 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 16164 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 15:25:09.674 DEBUG 16164 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 15:25:09.675  INFO 16164 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 15:25:11.014  WARN 16164 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 15:25:11.637  INFO 16164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 15:25:11.650  INFO 16164 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 15:25:11.651  INFO 16164 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 15:25:11.877  INFO 16164 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 15:25:11.880  INFO 16164 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2065 ms
+2021-01-12 15:25:11.896  INFO 16164 --- [main] c.e.jwt22.configure.DruidConfiguration   : init Druid Servlet Configuration 
+2021-01-12 15:25:12.168  INFO 16164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 15:25:12.408  INFO 16164 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 15:25:12.552  INFO 16164 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 15:25:12.632  INFO 16164 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 15:25:12.633  INFO 16164 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 15:25:12.636  INFO 16164 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 15:25:12.648  INFO 16164 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 15:25:12.809  INFO 16164 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 15:25:12.824  INFO 16164 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 4.358 seconds (JVM running for 6.157)
+2021-01-12 15:25:31.586  INFO 16164 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 15:25:31.587  INFO 16164 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 15:25:31.589  INFO 16164 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 15:54:14.950  INFO 14188 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 14188 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 15:54:14.994 DEBUG 14188 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 15:54:14.995  INFO 14188 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 15:54:18.281  WARN 14188 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 15:54:20.251  INFO 14188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 15:54:20.296  INFO 14188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 15:54:20.297  INFO 14188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 15:54:20.734  INFO 14188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 15:54:20.735  INFO 14188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5299 ms
+2021-01-12 15:54:21.326  INFO 14188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 15:54:21.724  INFO 14188 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 15:54:22.166  INFO 14188 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 15:54:22.304  INFO 14188 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 15:54:22.305  INFO 14188 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 15:54:22.306  INFO 14188 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 15:54:22.334  INFO 14188 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 15:54:22.655  INFO 14188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 15:54:22.683  INFO 14188 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 10.956 seconds (JVM running for 15.685)
+2021-01-12 15:54:40.555  INFO 14188 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 15:54:40.556  INFO 14188 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 15:54:40.560  INFO 14188 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-12 15:56:43.069  INFO 12972 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 12972 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 15:56:43.074 DEBUG 12972 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 15:56:43.075  INFO 12972 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 15:56:44.666  WARN 12972 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 15:56:45.463  INFO 12972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 15:56:45.475  INFO 12972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 15:56:45.476  INFO 12972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 15:56:45.573  INFO 12972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 15:56:45.573  INFO 12972 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2322 ms
+2021-01-12 15:56:45.881  INFO 12972 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 15:56:46.076  INFO 12972 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 15:56:46.225  INFO 12972 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 15:56:46.307  INFO 12972 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 15:56:46.308  INFO 12972 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 15:56:46.309  INFO 12972 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 15:56:46.348  INFO 12972 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 15:56:46.500  INFO 12972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 15:56:46.516  INFO 12972 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 4.419 seconds (JVM running for 6.388)
+2021-01-12 15:56:51.416  INFO 12972 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 15:56:51.416  INFO 12972 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 15:56:51.418  INFO 12972 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 16:00:48.250  INFO 18232 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 18232 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:00:48.258 DEBUG 18232 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:00:48.260  INFO 18232 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:00:49.866  WARN 18232 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:00:50.588  INFO 18232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:00:50.602  INFO 18232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:00:50.603  INFO 18232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:00:50.724  INFO 18232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:00:50.725  INFO 18232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2207 ms
+2021-01-12 16:00:51.103  INFO 18232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:00:51.388  INFO 18232 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:00:51.567  INFO 18232 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:00:51.659  INFO 18232 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:00:51.660  INFO 18232 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:00:51.661  INFO 18232 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:00:51.671  INFO 18232 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:00:51.827  INFO 18232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:00:51.841  INFO 18232 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 4.781 seconds (JVM running for 6.56)
+2021-01-12 16:01:50.712  INFO 18232 --- [http-nio-80-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:01:50.712  INFO 18232 --- [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:01:50.716  INFO 18232 --- [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-12 16:02:44.335  INFO 18020 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 18020 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:02:44.345 DEBUG 18020 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:02:44.346  INFO 18020 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:02:45.879  WARN 18020 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:02:46.680  INFO 18020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:02:46.692  INFO 18020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:02:46.693  INFO 18020 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:02:46.870  INFO 18020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:02:46.870  INFO 18020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2408 ms
+2021-01-12 16:02:47.397  INFO 18020 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:02:47.730  INFO 18020 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:02:47.989  INFO 18020 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:02:48.166  INFO 18020 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:02:48.167  INFO 18020 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:02:48.168  INFO 18020 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:02:48.196  INFO 18020 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:02:48.407  INFO 18020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:02:48.425  INFO 18020 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 5.046 seconds (JVM running for 6.646)
+2021-01-12 16:02:52.897  INFO 18020 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:02:52.897  INFO 18020 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:02:52.899  INFO 18020 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 16:03:34.717  INFO 12852 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 12852 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:03:34.723 DEBUG 12852 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:03:34.724  INFO 12852 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:03:36.249  WARN 12852 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:03:37.161  INFO 12852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:03:37.176  INFO 12852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:03:37.177  INFO 12852 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:03:37.372  INFO 12852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:03:37.372  INFO 12852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2536 ms
+2021-01-12 16:03:37.411  INFO 12852 --- [main] c.e.jwt22.configure.DruidConfiguration   : init Druid Servlet Configuration 
+2021-01-12 16:03:37.891  INFO 12852 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:03:38.297  INFO 12852 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:03:38.512  INFO 12852 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:03:38.713  INFO 12852 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:03:38.714  INFO 12852 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:03:38.715  INFO 12852 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:03:38.757  INFO 12852 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:03:38.992  INFO 12852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:03:39.006  INFO 12852 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 5.32 seconds (JVM running for 6.994)
+2021-01-12 16:04:38.538  INFO 14112 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 14112 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:04:38.591 DEBUG 14112 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:04:38.592  INFO 14112 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:04:40.836  WARN 14112 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:04:42.158  INFO 14112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:04:42.217  INFO 14112 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:04:42.218  INFO 14112 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:04:42.452  INFO 14112 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:04:42.453  INFO 14112 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3546 ms
+2021-01-12 16:04:42.493  INFO 14112 --- [main] c.e.jwt22.configure.DruidConfiguration2  : init Druid Servlet Configuration 
+2021-01-12 16:04:43.413  INFO 14112 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:04:43.875  INFO 14112 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:04:44.376  INFO 14112 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:04:44.540  INFO 14112 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:04:44.542  INFO 14112 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:04:44.543  INFO 14112 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:04:44.578  INFO 14112 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:04:44.942  INFO 14112 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:04:44.968  INFO 14112 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 8.04 seconds (JVM running for 10.182)
+2021-01-12 16:07:00.333  INFO 14996 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 14996 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:07:00.373 DEBUG 14996 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:07:00.374  INFO 14996 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:07:02.697  WARN 14996 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:07:03.712  INFO 14996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:07:03.745  INFO 14996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:07:03.745  INFO 14996 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:07:03.935  INFO 14996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:07:03.935  INFO 14996 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3372 ms
+2021-01-12 16:07:04.552  INFO 14996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:07:04.972  INFO 14996 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:07:05.342  INFO 14996 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:07:05.486  INFO 14996 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:07:05.487  INFO 14996 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:07:05.489  INFO 14996 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:07:05.516  INFO 14996 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:07:05.839  INFO 14996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:07:05.854  INFO 14996 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 7.0 seconds (JVM running for 9.849)
+2021-01-12 16:07:09.710  INFO 14996 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:07:09.711  INFO 14996 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:07:09.713  INFO 14996 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 16:08:09.704  INFO 11660 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 11660 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:08:09.712 DEBUG 11660 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:08:09.713  INFO 11660 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:08:12.450  WARN 11660 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:08:14.782  INFO 11660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:08:14.869  INFO 11660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:08:14.870  INFO 11660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:08:15.186  INFO 11660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:08:15.186  INFO 11660 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5338 ms
+2021-01-12 16:08:15.889  INFO 11660 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:08:16.285  INFO 11660 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:08:16.663  INFO 11660 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:08:16.811  INFO 11660 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:08:16.813  INFO 11660 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:08:16.814  INFO 11660 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:08:16.840  INFO 11660 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:08:17.221  INFO 11660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:08:17.233  INFO 11660 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 8.432 seconds (JVM running for 10.465)
+2021-01-12 16:08:23.743  INFO 11660 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:08:23.744  INFO 11660 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:08:23.745  INFO 11660 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 16:09:02.907  INFO 17664 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 17664 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:09:02.912 DEBUG 17664 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:09:02.913  INFO 17664 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:09:04.768  WARN 17664 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:09:05.750  INFO 17664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:09:05.774  INFO 17664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:09:05.774  INFO 17664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:09:05.928  INFO 17664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:09:05.929  INFO 17664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2847 ms
+2021-01-12 16:09:06.422  INFO 17664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:09:06.863  INFO 17664 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:09:07.087  INFO 17664 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:09:07.235  INFO 17664 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:09:07.237  INFO 17664 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:09:07.238  INFO 17664 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:09:07.267  INFO 17664 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:09:07.452  INFO 17664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:09:07.466  INFO 17664 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 5.512 seconds (JVM running for 7.623)
+2021-01-12 16:16:51.766  INFO 5000 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 5000 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:16:51.772 DEBUG 5000 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:16:51.773  INFO 5000 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:16:53.483  WARN 5000 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:16:54.430  INFO 5000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:16:54.444  INFO 5000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:16:54.445  INFO 5000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:16:54.563  INFO 5000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:16:54.563  INFO 5000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2660 ms
+2021-01-12 16:16:54.849  INFO 5000 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:16:55.051  INFO 5000 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:16:55.218  INFO 5000 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:16:55.316  INFO 5000 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:16:55.319  INFO 5000 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:16:55.320  INFO 5000 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:16:55.327  INFO 5000 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:16:55.493  INFO 5000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:16:55.512  INFO 5000 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 4.63 seconds (JVM running for 6.342)
+2021-01-12 16:17:12.373  INFO 5000 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:17:12.374  INFO 5000 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:17:12.375  INFO 5000 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 16:18:03.232  INFO 15000 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 15000 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:18:03.238 DEBUG 15000 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:18:03.239  INFO 15000 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:18:05.154  WARN 15000 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:18:06.268  INFO 15000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:18:06.290  INFO 15000 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:18:06.291  INFO 15000 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:18:06.493  INFO 15000 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:18:06.494  INFO 15000 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3102 ms
+2021-01-12 16:18:06.826  INFO 15000 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:18:07.032  INFO 15000 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:18:07.184  INFO 15000 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:18:07.274  INFO 15000 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:18:07.275  INFO 15000 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:18:07.276  INFO 15000 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:18:07.288  INFO 15000 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:18:07.416  INFO 15000 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:18:07.433  INFO 15000 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 5.324 seconds (JVM running for 7.194)
+2021-01-12 16:18:08.161  INFO 15000 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:18:08.161  INFO 15000 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:18:08.164  INFO 15000 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-12 16:18:42.784  INFO 18472 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 18472 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:18:42.787 DEBUG 18472 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:18:42.788  INFO 18472 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:18:44.491  WARN 18472 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:18:45.015  INFO 18472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:18:45.025  INFO 18472 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:18:45.025  INFO 18472 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:18:45.117  INFO 18472 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:18:45.117  INFO 18472 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2228 ms
+2021-01-12 16:18:45.427  INFO 18472 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:18:45.604  INFO 18472 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:18:45.752  INFO 18472 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:18:45.827  INFO 18472 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:18:45.828  INFO 18472 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:18:45.828  INFO 18472 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:18:45.834  INFO 18472 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:18:45.936  INFO 18472 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:18:45.950  INFO 18472 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 4.043 seconds (JVM running for 5.649)
+2021-01-12 16:23:01.884  INFO 8812 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 8812 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:23:01.889 DEBUG 8812 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:23:01.889  INFO 8812 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:23:03.509  WARN 8812 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:23:04.291  INFO 8812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:23:04.303  INFO 8812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:23:04.304  INFO 8812 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:23:04.416  INFO 8812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:23:04.417  INFO 8812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2337 ms
+2021-01-12 16:23:04.726  INFO 8812 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:23:04.929  INFO 8812 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:23:05.082  INFO 8812 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:23:05.164  INFO 8812 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:23:05.165  INFO 8812 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:23:05.166  INFO 8812 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:23:05.178  INFO 8812 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:23:05.343  INFO 8812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:23:05.361  INFO 8812 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 4.58 seconds (JVM running for 6.812)
+2021-01-12 16:23:32.815  INFO 8812 --- [http-nio-80-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:23:32.816  INFO 8812 --- [http-nio-80-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:23:32.818  INFO 8812 --- [http-nio-80-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-12 16:26:31.738  INFO 1664 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 1664 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:26:31.744 DEBUG 1664 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:26:31.744  INFO 1664 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:26:33.870  WARN 1664 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:26:35.707  INFO 1664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:26:35.727  INFO 1664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:26:35.728  INFO 1664 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:26:35.896  INFO 1664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:26:35.897  INFO 1664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4036 ms
+2021-01-12 16:26:36.360  INFO 1664 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:26:36.668  INFO 1664 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:26:37.081  INFO 1664 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:26:37.529  INFO 1664 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:26:37.531  INFO 1664 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:26:37.534  INFO 1664 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:26:37.593  INFO 1664 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:26:38.342  INFO 1664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:26:38.596  INFO 1664 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 7.979 seconds (JVM running for 9.856)
+2021-01-12 16:27:35.024  INFO 12180 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 12180 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:27:35.031 DEBUG 12180 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:27:35.038  INFO 12180 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:27:37.417  WARN 12180 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:27:38.611  INFO 12180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:27:38.643  INFO 12180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:27:38.643  INFO 12180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:27:38.799  INFO 12180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:27:38.800  INFO 12180 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3600 ms
+2021-01-12 16:27:39.481  INFO 12180 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:27:39.859  INFO 12180 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:27:40.268  INFO 12180 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:27:40.407  INFO 12180 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:27:40.410  INFO 12180 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:27:40.411  INFO 12180 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:27:40.436  INFO 12180 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:27:40.657  INFO 12180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:27:40.669  INFO 12180 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 7.209 seconds (JVM running for 9.932)
+2021-01-12 16:28:57.223  INFO 13892 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 13892 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:28:57.234 DEBUG 13892 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:28:57.235  INFO 13892 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:29:00.486  WARN 13892 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:29:01.601  INFO 13892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:29:01.645  INFO 13892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:29:01.645  INFO 13892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:29:02.040  INFO 13892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:29:02.040  INFO 13892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4573 ms
+2021-01-12 16:29:02.167 ERROR 13892 --- [main] o.s.b.web.embedded.tomcat.TomcatStarter  : Error starting Tomcat context. Exception: java.lang.IllegalArgumentException. Message: Invalid <url-pattern> [aa/*] in servlet mapping
+2021-01-12 16:29:02.264  INFO 13892 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-01-12 16:29:02.381  WARN 13892 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2021-01-12 16:29:02.496  INFO 13892 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-12 16:29:02.747 ERROR 13892 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582) ~[spring-context-5.3.2.jar:5.3.2]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767) [spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426) [spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326) [spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309) [spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298) [spring-boot-2.4.1.jar:2.4.1]
+	at com.example.jwt22.Jwt22Application.main(Jwt22Application.java:10) [classes/:na]
+Caused by: org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:142) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:451) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:200) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159) ~[spring-boot-2.4.1.jar:2.4.1]
+	... 9 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [aa/*] in servlet mapping
+	at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3214) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.Context.addServletMappingDecoded(Context.java:895) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationServletRegistration.addMapping(ApplicationServletRegistration.java:196) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.boot.web.servlet.ServletRegistrationBean.configure(ServletRegistrationBean.java:194) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.web.servlet.ServletRegistrationBean.configure(ServletRegistrationBean.java:51) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.web.servlet.DynamicRegistrationBean.register(DynamicRegistrationBean.java:113) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.web.servlet.RegistrationBean.onStartup(RegistrationBean.java:53) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:234) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53) ~[spring-boot-2.4.1.jar:2.4.1]
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_212]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[na:1.8.0_212]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[na:1.8.0_212]
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134) ~[na:1.8.0_212]
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123) ~[spring-boot-2.4.1.jar:2.4.1]
+	... 14 common frames omitted
+
+2021-01-12 16:29:37.232  INFO 8824 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 8824 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:29:37.238 DEBUG 8824 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:29:37.239  INFO 8824 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:29:39.754  WARN 8824 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:29:40.635  INFO 8824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:29:40.656  INFO 8824 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:29:40.657  INFO 8824 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:29:40.859  INFO 8824 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:29:40.859  INFO 8824 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3425 ms
+2021-01-12 16:29:41.319  INFO 8824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:29:41.598  INFO 8824 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:29:41.809  INFO 8824 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:29:41.955  INFO 8824 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:29:41.958  INFO 8824 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:29:41.959  INFO 8824 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:29:41.985  INFO 8824 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:29:42.151  INFO 8824 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:29:42.167  INFO 8824 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 6.048 seconds (JVM running for 8.349)
+2021-01-12 16:29:52.599  INFO 8824 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:29:52.600  INFO 8824 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:29:52.603  INFO 8824 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-12 16:30:34.907  INFO 9232 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 9232 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:30:34.911 DEBUG 9232 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:30:34.913  INFO 9232 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:30:36.720  WARN 9232 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:30:37.768  INFO 9232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:30:37.778  INFO 9232 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:30:37.779  INFO 9232 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:30:37.977  INFO 9232 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:30:37.978  INFO 9232 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2949 ms
+2021-01-12 16:30:38.298  INFO 9232 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:30:38.469  INFO 9232 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:30:38.618  INFO 9232 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:30:38.695  INFO 9232 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:30:38.696  INFO 9232 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:30:38.697  INFO 9232 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:30:38.705  INFO 9232 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:30:38.811  INFO 9232 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:30:38.826  INFO 9232 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 4.815 seconds (JVM running for 6.767)
+2021-01-12 16:33:14.010  INFO 6416 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 6416 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:33:14.020 DEBUG 6416 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:33:14.021  INFO 6416 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:33:18.940  WARN 6416 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:33:24.035  INFO 6416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:33:24.187  INFO 6416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:33:24.188  INFO 6416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:33:26.384  INFO 6416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:33:26.385  INFO 6416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12173 ms
+2021-01-12 16:33:27.608  INFO 6416 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:33:28.114  INFO 6416 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:33:28.692  INFO 6416 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:33:28.919  INFO 6416 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:33:28.922  INFO 6416 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:33:28.924  INFO 6416 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:33:28.962  INFO 6416 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:33:29.350  INFO 6416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:33:29.397  INFO 6416 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 16.774 seconds (JVM running for 19.738)
+2021-01-12 16:33:33.001  INFO 6416 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:33:33.002  INFO 6416 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:33:33.003  INFO 6416 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 16:39:37.191  INFO 3088 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 3088 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:39:37.197 DEBUG 3088 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:39:37.199  INFO 3088 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:39:39.231  WARN 3088 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:39:40.246  INFO 3088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:39:40.276  INFO 3088 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:39:40.277  INFO 3088 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:39:40.512  INFO 3088 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:39:40.512  INFO 3088 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3149 ms
+2021-01-12 16:39:40.956  INFO 3088 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:39:41.249  INFO 3088 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:39:41.570  INFO 3088 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:39:41.698  INFO 3088 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:39:41.715  INFO 3088 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:39:41.717  INFO 3088 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:39:41.751  INFO 3088 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:39:42.077  INFO 3088 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:39:42.095  INFO 3088 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 6.068 seconds (JVM running for 7.802)
+2021-01-12 16:40:25.653  INFO 10548 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 10548 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:40:25.658 DEBUG 10548 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:40:25.660  INFO 10548 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:40:27.184  WARN 10548 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:40:27.959  INFO 10548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:40:27.972  INFO 10548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:40:27.972  INFO 10548 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:40:28.098  INFO 10548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:40:28.098  INFO 10548 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2261 ms
+2021-01-12 16:40:28.409  INFO 10548 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:40:28.621  INFO 10548 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:40:28.768  INFO 10548 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:40:28.841  INFO 10548 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:40:28.842  INFO 10548 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:40:28.842  INFO 10548 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:40:28.851  INFO 10548 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:40:28.983  INFO 10548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:40:28.997  INFO 10548 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 4.346 seconds (JVM running for 6.778)
+2021-01-12 16:40:42.634  INFO 10548 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:40:42.634  INFO 10548 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:40:42.636  INFO 10548 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-12 16:42:30.262  INFO 16292 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 16292 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:42:30.290 DEBUG 16292 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:42:30.291  INFO 16292 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:42:35.285  WARN 16292 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:42:37.863  INFO 16292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:42:38.063  INFO 16292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:42:38.063  INFO 16292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:42:38.592  INFO 16292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:42:38.593  INFO 16292 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7529 ms
+2021-01-12 16:42:39.473  INFO 16292 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:42:39.964  INFO 16292 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:42:40.567  INFO 16292 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:42:40.728  INFO 16292 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:42:40.729  INFO 16292 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:42:40.730  INFO 16292 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:42:40.768  INFO 16292 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:42:41.223  INFO 16292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:42:41.311  INFO 16292 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 15.137 seconds (JVM running for 17.364)
+2021-01-12 16:42:41.550  INFO 16292 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:42:41.550  INFO 16292 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:42:41.556  INFO 16292 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2021-01-12 16:44:25.787  INFO 3376 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 3376 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:44:25.806 DEBUG 3376 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:44:25.807  INFO 3376 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:44:28.762  WARN 3376 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:44:30.394  INFO 3376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:44:30.422  INFO 3376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:44:30.423  INFO 3376 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:44:30.861  INFO 3376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:44:30.861  INFO 3376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4717 ms
+2021-01-12 16:44:31.450  INFO 3376 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:44:31.977  INFO 3376 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:44:32.487  INFO 3376 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:44:32.642  INFO 3376 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:44:32.643  INFO 3376 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:44:32.644  INFO 3376 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:44:32.671  INFO 3376 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:44:33.006  INFO 3376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:44:33.022  INFO 3376 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 10.046 seconds (JVM running for 15.313)
+2021-01-12 16:45:00.124  INFO 3376 --- [http-nio-80-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:45:00.127  INFO 3376 --- [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:45:00.130  INFO 3376 --- [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-12 16:52:53.854  INFO 9188 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 9188 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 16:52:53.859 DEBUG 9188 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 16:52:53.868  INFO 9188 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 16:52:55.847  WARN 9188 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 16:52:56.807  INFO 9188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 16:52:56.826  INFO 9188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 16:52:56.827  INFO 9188 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 16:52:57.007  INFO 9188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 16:52:57.008  INFO 9188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2999 ms
+2021-01-12 16:52:57.669  INFO 9188 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 16:52:57.962  INFO 9188 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 16:52:58.321  INFO 9188 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 16:52:58.459  INFO 9188 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 16:52:58.475  INFO 9188 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 16:52:58.476  INFO 9188 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 16:52:58.499  INFO 9188 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 16:52:58.736  INFO 9188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 16:52:58.752  INFO 9188 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 6.038 seconds (JVM running for 7.813)
+2021-01-12 16:58:09.944  INFO 9188 --- [http-nio-80-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 16:58:09.953  INFO 9188 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 16:58:09.972  INFO 9188 --- [http-nio-80-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2021-01-12 17:01:48.629  INFO 13212 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 13212 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 17:01:48.642 DEBUG 13212 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 17:01:48.644  INFO 13212 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 17:01:51.787  WARN 13212 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 17:01:58.798  INFO 2060 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 2060 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 17:01:58.802 DEBUG 2060 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 17:01:58.803  INFO 2060 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 17:02:00.224  WARN 2060 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 17:02:01.369  INFO 2060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 17:02:01.403  INFO 2060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 17:02:01.403  INFO 2060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 17:02:01.547  INFO 2060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 17:02:01.547  INFO 2060 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2616 ms
+2021-01-12 17:02:02.163  INFO 2060 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 17:02:02.564  INFO 2060 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 17:02:02.929  INFO 2060 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 17:02:03.127  INFO 2060 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 17:02:03.129  INFO 2060 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 17:02:03.130  INFO 2060 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 17:02:03.163  INFO 2060 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 17:02:03.421  INFO 2060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 17:02:03.434  INFO 2060 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 5.614 seconds (JVM running for 7.215)
+2021-01-12 17:02:14.904  INFO 2060 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 17:02:14.905  INFO 2060 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 17:02:14.907  INFO 2060 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 17:02:52.370  INFO 6012 --- [main] com.example.jwt22.Jwt22Application       : Starting Jwt22Application using Java 1.8.0_212 on DESKTOP-P4DPON0 with PID 6012 (E:\idea\ideaworkplace\jwt22\target\classes started by mcfeng in E:\idea\ideaworkplace\jwt22)
+2021-01-12 17:02:52.389 DEBUG 6012 --- [main] com.example.jwt22.Jwt22Application       : Running with Spring Boot v2.4.1, Spring v5.3.2
+2021-01-12 17:02:52.390  INFO 6012 --- [main] com.example.jwt22.Jwt22Application       : No active profile set, falling back to default profiles: default
+2021-01-12 17:02:54.423  WARN 6012 --- [main] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.jwt22]' package. Please check your configuration.
+2021-01-12 17:02:55.316  INFO 6012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2021-01-12 17:02:55.348  INFO 6012 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 17:02:55.348  INFO 6012 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 17:02:55.516  INFO 6012 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 17:02:55.517  INFO 6012 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2879 ms
+2021-01-12 17:02:55.954  INFO 6012 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 17:02:56.376  INFO 6012 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-12 17:02:56.546  INFO 6012 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-12 17:02:56.680  INFO 6012 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2021-01-12 17:02:56.681  INFO 6012 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2021-01-12 17:02:56.682  INFO 6012 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2021-01-12 17:02:56.709  INFO 6012 --- [main] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2021-01-12 17:02:56.886  INFO 6012 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2021-01-12 17:02:56.902  INFO 6012 --- [main] com.example.jwt22.Jwt22Application       : Started Jwt22Application in 6.378 seconds (JVM running for 8.787)
+2021-01-12 17:08:11.064  INFO 6012 --- [http-nio-80-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 17:08:11.101  INFO 6012 --- [http-nio-80-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 17:08:11.131  INFO 6012 --- [http-nio-80-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 29 ms
